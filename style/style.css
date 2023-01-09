@@ -73,6 +73,9 @@ main {
 
 article > p{
     text-align: justify;
+    width: 600px;
+    display: block;
+    margin: auto;
 }
 
 aside{
@@ -81,6 +84,7 @@ aside{
     background-color: white;
     border-radius: 10px;
 }
+
 
 aside > h2{
     text-align: center;
