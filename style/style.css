@@ -86,6 +86,7 @@ aside > h2{
     text-align: center;
     color: black;
     text-shadow: black 5px 5px 5px;
+    
 
 }
 
@@ -94,6 +95,11 @@ img{
     border-radius: 50%;
     text-align: center;
 
+}
+
+aside > p{
+    display: inline-block;
+    text-align: center;
 }
 
 
