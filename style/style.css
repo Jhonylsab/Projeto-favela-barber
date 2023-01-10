@@ -8,7 +8,7 @@
 
 }
 
-body{
+body, html{
     background-color: black;
     background-image: url('../imagens/favelaBarberlogo-g-photo.png');
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body{
 }
 
 header {
-    background-color: black;
+    
     min-height: 150px;
     text-align: center;
     margin-bottom: 10px;
@@ -43,7 +43,7 @@ header > p{
 
 nav a{
     color: white;
-    background-color: rgba(77, 75, 75, 0.493);
+    background-color: rgba(46, 45, 45, 0.493);
     font-size: 1.2em;
     margin: 0px;
     padding: 7px;
@@ -67,13 +67,14 @@ main {
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
 
 article > p{
     text-align: justify;
     width: 600px;
+    font-size: 1.5em;
+    color: black;
     display: block;
     margin: auto;
 }
@@ -81,8 +82,9 @@ article > p{
 aside{
     width: 750px;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(211, 211, 211, 0.493);
     border-radius: 10px;
+    text-align: center;
 }
 
 
@@ -94,10 +96,10 @@ aside > h2{
 
 }
 
+
 img{
     padding: 10px;
     border-radius: 50%;
-    text-align: center;
 
 }
 
